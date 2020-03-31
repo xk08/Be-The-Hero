@@ -2,6 +2,7 @@ const express  =  require('express') ; //Importando o PACOTE express
 const cors  =  require('cors') ; //Importando o PACOTE express
 const routes = require('./routes') ; // Importando o ARQUIVO routes
 
+
 const app = express() ; //isntanciando em app
 
 app.use(cors()) ; // Defini quem do FRONT pode acessar o backend, por enquanto ficam TODOS

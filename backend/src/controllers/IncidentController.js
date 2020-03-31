@@ -1,6 +1,7 @@
 const connection = require('../database/connection') ; //pegando a conexão
 
 module.exports = {
+    
 
     //Método de listagem
     async index(request, response) {

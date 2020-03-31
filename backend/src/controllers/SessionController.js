@@ -4,6 +4,7 @@ const connection = require('../database/connection') ;
  * AQUI SERÁ FEITO SE A ONG EXISTE NO BANCO DE DADOS, ESTA É A VALIDAÇÃO DO 'LOGIN'
  */
 
+ 
 module.exports = {
     async create(request, response) {
         const { id } = request.body ; // pega o id da ong que ta utilizando no momento
